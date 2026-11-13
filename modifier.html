@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Modifier une filière</title>
+</head>
+<body>
+
+    <h1>Modifier une filière</h1>
+
+    <form action="modifier.php" method="POST">
+
+        <label>Identifiant de la filière :</label>
+        <input type="number" name="id" required>
+
+        <br><br>
+
+        <label>Nouveau nom de la filière :</label>
+        <input type="text" name="nom_filiere" required>
+
+        <br><br>
+
+        <button type="submit">Modifier</button>
+
+    </form>
+
+    <br>
+    <a href="lire.php">Retour à la liste</a>
+
+</body>
+</html>
